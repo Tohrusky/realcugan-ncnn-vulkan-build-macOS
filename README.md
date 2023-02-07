@@ -3,7 +3,7 @@
 新版本```Vulkan SDK```开启```openmp```效果不明显，建议使用老版本编译，见```build.yml```
 
 
-#### 以下为 MacOS M1 GPU 环境下测试
+#### 以下为 MacOS M1 GPU 环境下测试，测试图片分辨率为```1920x1080```
 ```
 import os
 import time
