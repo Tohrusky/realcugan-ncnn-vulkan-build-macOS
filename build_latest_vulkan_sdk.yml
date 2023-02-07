@@ -1,4 +1,4 @@
-name: build
+name: build_latest_vulkan_sdk
 on:
   push:
   
@@ -85,7 +85,7 @@ jobs:
     needs: [setup, openmp-macos]
     runs-on: macos-latest
     env:
-      PACKAGENAME: realcugan-ncnn-vulkan-macos
+      PACKAGENAME: realcugan-ncnn-vulkan-macos_latest_vulkan_sdk
     steps:
     - uses: actions/checkout@v3
       with:
