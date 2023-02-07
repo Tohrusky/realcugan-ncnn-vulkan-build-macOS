@@ -1,4 +1,4 @@
-# Github Actions 编译 realcugan-ncnn-vulkan MacOS版
+# [Github Actions 编译 realcugan-ncnn-vulkan MacOS版](https://github.com/Tohrusky/realcugan-ncnn-vulkan/actions)
 
 新版本```Vulkan SDK```开启```openmp```效果不明显，建议使用老版本编译，见```build.yml```
 
